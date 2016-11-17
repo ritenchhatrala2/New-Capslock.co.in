@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+	table.pad td {
+ 	padding: 10px;
+	}
+
+	pre,code {
+		white-space: normal;
+		background-color: #ededed;
+		border-bottom: 1px solid #d9d9d9;
+		border-top: 1px solid #d9d9d9;
+		display: block;
+		width: 100%;
+		font: 12px/24px Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+		margin: 5px 0;
+		padding: 5px;
+}
+#container
+{
+	width:1349px;
+	height:100%;
+	position:relative;
+}
+#menu
+{
+	border-bottom:#CCC groove;
+	width:1349px;;
+	height:80px;
+	background:#fff;
+	background-image:url(../img/lil_fiber.png);
+	position:fixed;
+	top:0px;
+	z-index:9999;
+	}
+.slider
+{
+	width:1349px;
+	height:590px;
+	position:relative;
+	background-color:#000;
+	padding-top:80px;
+}
+.icon
+{
+	width:337px;
+	top:5px;
+	height:70px;
+	margin-left:150px;
+	background-image:url(../img/icon.png);
+	float:left;
+	position:relative;
+}
+#menu_bar
+{
+	width:auto;
+	height:80px;
+	margin-left:450px;
+	position:relative;
+}
+#aboutus
+{
+	/*background-color:#00ab85;*/
+	background-color:#297788;
+	width:1349px;
+	height:600px;
+	padding-top:80px;
+}
+.container{
+	display:inline-block;
+}
+.aboutus_main
+{
+	width: 1309px;
+	height: auto;
+	padding: 20px;
+}
+.abt_text{
+	float:left;
+	width: 800px;
+	height: auto;
+}
+.about_text{
+	text-align:justify;
+	
+	margin-left: 20px;
+	margin-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.about_img
+{
+	float: right;
+	position: relative;
+	height: 468px;
+	width: 454px;
+}
+.row1
+{
+	height:200px;
+	display:inline-block;
+}
+.row1_1
+{
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-left: 20px;
+}
+.row2
+{
+	margin-top:20px;
+	height:200px;
+	display:inline-block;
+}
+
+
+#services
+{
+	width:1349px;
+	height:600px;
+	padding-top:80px;
+	/*background-color:#815A9B;
+	background-color:#00ab85;*/
+	background-color:#009876;
+	/*background-image:url(../img/mooning.png);*/
+	background-repeat:repeat;
+}
+#services_text
+{
+	width:1349px;
+	height:auto;
+	padding-top:40px;
+}
+#services_text_css
+{
+	font-size: 30px;
+	text-align: left;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#services_text_css1
+{
+	font-size: 30px;
+	text-align:center;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#services_detail
+{
+	width:1349px;
+	height:450px;
+	padding-top:20px;
+}
+#services_detail_box1
+{
+	width:250px;;
+	float:left;
+	margin-left:175px;
+	position:relative;
+	}
+#services_detail_box1_1
+{
+	padding:auto;
+	
+}
+#services_detail_box1_2
+{
+	padding:10px;
+	color:#FFF;
+	text-align:justify;
+	font:"Courier New", Courier, monospace;
+	font-size:18px;
+}
+#services_detail_box2
+{
+	width:250px;
+	float:left;
+	margin-left:125px;
+	position:relative;
+	}
+#services_detail_box2_1
+{
+	padding:auto;
+}
+#services_detail_box2_2
+{
+	padding:10px;
+	color:#FFF;
+		text-align:justify;
+	font:"Courier New", Courier, monospace;
+	font-size:18px;
+
+}
+#services_detail_box3
+{
+	width:250px;
+	float:left;
+	margin-left:125px;
+	position:relative;
+	}
+#services_detail_box3_1
+{
+		padding:auto;
+}
+#services_detail_box3_2
+{
+	padding:10px;
+	color:#FFF;
+		text-align:justify;
+	font:"Courier New", Courier, monospace;
+	font-size:18px;
+
+}
+#project
+{
+	width:1349px;
+	height:700px;
+	position:relative;
+	padding-top:80px;
+	background-color:#fbfbfb;
+	
+	}
+.project_main
+{
+	display:inline-block;
+}
+.project_second
+{
+	float:left;
+	width: 1230px;
+	height:600px;
+	overflow:auto;
+	
+}
+.project_sidebar
+{
+	float: left;
+	width: 110px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+#project_main_all
+{
+	width: 1190px;
+	height:650px;
+	padding:20px;
+	display:block;
+	}
+#project_main_web
+{
+	width: 1190px;
+	height:580px;
+	padding:20px;
+	display:none;
+}
+#project_main_soft
+{
+	width: 1190px;
+	height:580px;
+	padding:20px;
+	display:none;
+	}
+#project_main_graphics
+{
+	width: 1190px;
+	height:580px;
+	padding:20px;
+	display:block;
+	}
+#project_main_real
+{
+	width: 1190px;
+	height:580px;
+	padding:20px;
+	display:none;
+}
+#contact
+{
+	width:1349px;
+	height:600px;
+	padding-top:80px;
+	position:relative;
+	background-color:#E4E6E5;
+	background-image:url(../img/bg2.png);
+}
+#contact_text
+{
+	width:1349px;
+	height:auto;
+	
+	padding-top:80px;
+	text-align:center;
+}
+.contact_img
+{
+	padding-top:125px;
+	width:1349px;
+	height:auto;
+	margin:auto;
+}
+
+	
